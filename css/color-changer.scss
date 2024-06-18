@@ -1,0 +1,41 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #323232, #d3d3d3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sec1{
+    margin: 25px;
+    border: 2px rgb(0, 0, 0) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    width: 600px;
+    height: 600px;
+    h1{
+        margin: 10px;
+        color: blue;
+    }
+}
+
+#color-box{
+    margin: 10px;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+#change-color-btn{
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: 0.3px white solid;
+    width: 150px;
+    height: 45px;
+}
